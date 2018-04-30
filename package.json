@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/pinyin/async-weak-map#readme",
   "dependencies": {
-    "@pinyin/maybe": "0.0.5",
+    "@pinyin/maybe": "^0.0.5",
     "tslib": "^1.9.0"
   },
   "devDependencies": {
