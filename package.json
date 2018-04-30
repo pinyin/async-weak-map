@@ -1,0 +1,39 @@
+{
+  "name": "@pinyin/async-weak-map",
+  "version": "0.0.1",
+  "description": "Like WeakMap, but returns a Promise when no value is present.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "prepublishOnly": "rm -r dist && npx tsc",
+    "test": "npx jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pinyin/async-weak-map.git"
+  },
+  "keywords": [
+    "weakmap",
+    "map",
+    "promise"
+  ],
+  "author": "Bo Bao <bob432091@gmail.com> (https://github.com/pinyin)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pinyin/async-weak-map/issues"
+  },
+  "homepage": "https://github.com/pinyin/async-weak-map#readme",
+  "dependencies": {
+    "@pinyin/maybe": "0.0.5",
+    "tslib": "^1.9.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^22.2.3",
+    "jest": "^22.4.3",
+    "ts-jest": "^22.4.4",
+    "typescript": "^2.8.3"
+  }
+}
