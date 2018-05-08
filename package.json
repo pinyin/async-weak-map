@@ -1,6 +1,6 @@
 {
   "name": "@pinyin/async-weak-map",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Like WeakMap, but returns a Promise when no value is present.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

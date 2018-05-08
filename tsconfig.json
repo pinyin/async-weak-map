@@ -5,6 +5,7 @@
     "module": "commonjs",
     "esModuleInterop": true,
     "declaration": true,
+    "inlineSourceMap": true,
     "strict": true,
     "declarationDir": "dist",
     "importHelpers": true,
@@ -13,13 +14,7 @@
       "es6"
     ]
   },
-  "exclude": [
-    "node_modules",
-    ".idea",
-    ".vscode",
-    "build",
-    "dist",
-    "**/*.spec.*",
-    "**/*.test.*"
+  "include": [
+    "./index.ts"
   ]
 }
